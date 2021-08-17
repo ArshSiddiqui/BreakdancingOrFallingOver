@@ -6,22 +6,18 @@ document.write(randPix[randNum]);
 function breakd(){
   if (randPix[randNum].charAt(0) === 'b'){
     document.getElementById("btnbd").innerHTML = "CORRECT!";
-    window.setTimeout(10000000000);
-    window.location.reload()
+    window.setTimeout(window.location.reload(), 1000*60*60);
   } else {
     document.getElementById("btnbd").innerHTML = "WRONG!";
-    window.setTimeout(10000000000);
-    window.location.reload()
+    window.setTimeout(window.location.reload(), 1000*60*60);
   }
 }
 function fallo(){
   if (randPix[randNum].charAt(0) === 'f'){
     document.getElementById("btnfo").innerHTML = "CORRECT!";
-    window.setTimeout(10000000000);
-    window.location.reload()
+    window.setTimeout(window.location.reload(), 1000*60*60);
   } else {
     document.getElementById("btnfo").innerHTML = "WRONG!";
-    window.setTimeout(10000000000);
-    window.location.reload()
+    window.setTimeout(window.location.reload(), 1000*60*60);
   }
 }
