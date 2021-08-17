@@ -6,14 +6,18 @@ document.write(randPix[randNum]);
 function breakd(){
   if (randPix[randNum].charAt(0) === 'b'){
     document.getElementById("btnbd").innerHTML = "CORRECT!";
+    window.setTimeout(window.location.reload(), 100);
   } else {
     document.getElementById("btnbd").innerHTML = "WRONG!";
+    window.setTimeout(window.location.reload(), 100);
   }
 }
 function fallo(){
   if (randPix[randNum].charAt(0) === 'f'){
     document.getElementById("btnfo").innerHTML = "CORRECT!";
+    window.setTimeout(window.location.reload(), 100);
   } else {
     document.getElementById("btnfo").innerHTML = "WRONG!";
+    window.setTimeout(window.location.reload(), 100);
   }
 }
