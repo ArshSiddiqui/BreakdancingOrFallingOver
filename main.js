@@ -6,22 +6,22 @@ document.write(randPix[randNum]);
 function breakd(){
   if (randPix[randNum].charAt(0) === 'b'){
     document.getElementById("btnbd").innerHTML = "CORRECT!";
-    window.setTimeout(200000);
+    window.setTimeout(10000000000);
     window.location.reload()
   } else {
     document.getElementById("btnbd").innerHTML = "WRONG!";
-    window.setTimeout(200000);
+    window.setTimeout(10000000000);
     window.location.reload()
   }
 }
 function fallo(){
   if (randPix[randNum].charAt(0) === 'f'){
     document.getElementById("btnfo").innerHTML = "CORRECT!";
-    window.setTimeout(200000);
+    window.setTimeout(10000000000);
     window.location.reload()
   } else {
     document.getElementById("btnfo").innerHTML = "WRONG!";
-    window.setTimeout(200000);
+    window.setTimeout(10000000000);
     window.location.reload()
   }
 }
