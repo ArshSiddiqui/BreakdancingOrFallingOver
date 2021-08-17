@@ -22,6 +22,8 @@ function fallo(){
   }
 }
 function reload(){
-  setTimeout('console.log("Hello World!")', 2000);
+  setTimeout(() => console.log("First"), 1000)
+  setTimeout(() => console.log("Second"), 2000)
+  setTimeout(() => console.log("Third"), 3000)
   window.location.reload()
 }
