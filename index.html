@@ -23,12 +23,16 @@
 		.myContainer {
 			color: white
   		}
-		.horizontalCenter {
-			margin: 0;
+		.container {
+			text-align: center;
+			width: 30px;
+			height: 20px;
+			padding-top: 100px;
+			/*margin: 0;
 			position: absolute;
 			top: 30%;
-			/*-ms-transform: translateX(-50%);*/
-			transform: translateY(-50%);
+			/*-ms-transform: translateX(-50%);
+			transform: translateY(-50%);*/
 		}
 		.center {
 			display: block;
@@ -41,7 +45,9 @@
   <body>
     	<p id="title">Is it Breakdancing or Falling Over?</p>
 	<img src="bd1.jpg" id="image" alt="Wooaaah" class="center">
+	  <div class="container">
     	<button id="btnbd" onclick="breakd()" class="horizontalCenter">Breakdancing</button>
+	  </div>
 	 </br>
     	<button id="btnfo" onclick="fallo()" class="horizontalCenter">Falling over</button>
 	<script src="main.js"></script>
