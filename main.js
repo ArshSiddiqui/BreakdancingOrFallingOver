@@ -1,5 +1,5 @@
 console.log('Hello World');
-var randPix = new Array("img/bd1.jpg", "img/fo1.jpg", "img/bd2.jpg", "img/fo2.jpg", "img/bd3.jpg", "img/fo3.jpg", "img/bd4.jpg", "img/fo4.jpg", "img/bd5.jpg", "img/fo5.jpg", "img/bd6.jpg", "img/fo6.jpg");
+var randPix = new Array("bd1.jpg", "fo1.jpg", "bd2.jpg", "fo2.jpg", "bd3.jpg", "fo3.jpg", "bd4.jpg", "fo4.jpg", "bd5.jpg", "fo5.jpg", "bd6.jpg", "fo6.jpg");
 var randNum = Math.floor(Math.random() * randPix.length);
 document.getElementById("image").src = randPix[randNum];
 document.write(randPix[randNum]);
