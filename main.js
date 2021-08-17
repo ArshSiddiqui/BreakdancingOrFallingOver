@@ -7,5 +7,5 @@ function breakd(){
   document.getElementById("btnbd").innerHTML = "CLICKED!";
 }
 function fallo(){
-  document.getEllementById("btnfo").innerHTML = "WOOW!";
+  document.getElementById("btnfo").innerHTML = "WOOW!";
 }
