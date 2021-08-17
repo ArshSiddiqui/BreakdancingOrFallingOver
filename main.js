@@ -13,7 +13,7 @@ function breakd(){
 function fallo(){
   if (randPix[randNum].charAt(0) === 'f'){
     document.getElementById("btnfo").innerHTML = "CORRECT!";
-  } else{
+  } else {
     document.getElementById("btnfo").innerHTML = "WRONG!";
   }
 }
