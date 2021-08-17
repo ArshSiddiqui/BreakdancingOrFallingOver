@@ -22,6 +22,5 @@ function fallo(){
   }
 }
 function reload(){
-  window.setTimeout(2000);
-  window.location.reload();
+  window.setTimeout(window.location.reload(), 2000);
 }
