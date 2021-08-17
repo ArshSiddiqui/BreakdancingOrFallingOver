@@ -14,17 +14,22 @@
 			background: transparent;
 			border: none;
 			color: white;
-			width: 100%;
 		}
 		#btnfo {
 			background: transparent;
 			border: none;
 			color: white;
-			width: 100%;
 		}
 		.myContainer {
 			color: white
   		}
+		.horizontalCenter {
+			margin: 0;
+			position: absolute;
+			top: 30%;
+			-ms-transform: translateX(-50%);
+			transform: translateX(-50%);
+		}
 		.center {
 			display: block;
 			margin-left: auto;
@@ -35,9 +40,9 @@
   </head>
   <body>
     	<p id="title">Is it Breakdancing or Falling Over?</p>
-    	<button id="btnbd" onclick="breakd()">Breakdancing</button>
+    	<button id="btnbd" onclick="breakd()" class="horizontalCenter">Breakdancing</button>
 	 </br>
-    	<button id="btnfo" onclick="fallo()" >Falling over</button>
+    	<button id="btnfo" onclick="fallo()" class="horizontalCenter">Falling over</button>
 	<img src="bd1.jpg" id="image" alt="Wooaaah" class="center">
 	<script src="main.js"></script>
   </body>
