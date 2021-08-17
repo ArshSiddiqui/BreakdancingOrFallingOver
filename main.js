@@ -22,6 +22,6 @@ function fallo(){
   }
 }
 function reload(){
-  window.setTimeout(1000);
+  window.setTimeout(Console.log("Hello World"), 1000);
   window.location.reload();
 }
