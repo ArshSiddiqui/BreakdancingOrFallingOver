@@ -22,8 +22,6 @@ function fallo(){
   }
 }
 function reload(){
-  setTimeout(() => console.log("First"), 1000)
-  setTimeout(() => console.log("Second"), 2000)
-  setTimeout(() => console.log("Third"), 3000)
+  setTimeout(2000);
   window.location.reload()
 }
