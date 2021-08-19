@@ -22,6 +22,9 @@ function fallo(){
   }
 }
 function reload(){
-  setTimeout(2000);
-  window.location.reload()
+  let btn = document.createElement("button");
+  btn.innerHTML = "Play again?";
+  btn.onclick = function(){
+    window.location.reload()
+  }
 }
