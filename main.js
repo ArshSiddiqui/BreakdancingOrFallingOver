@@ -24,7 +24,14 @@ function fallo(){
 function reload(){
   let btn = document.createElement("button");
   btn.innerHTML = "Play again?";
+  btn.style.backgroundColor = "#060911";
+  btn.style.borderColor = "#060911";
+  btn.style.color = "white";
+  btn.style.width = "1400px";
   btn.onclick = function(){
     window.location.reload()
-  }
+  };
+  document.body.appendChild(btn);
+  document.getElementById("btnbd").disabled = true;
+  document.getElementById("btnfo").disabled = true;
 }
